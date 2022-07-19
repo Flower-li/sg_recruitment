@@ -23,7 +23,7 @@
         </div>
       </van-col>
     </van-row>
-    <van-divider style="margin: 15px 0 10px 0;" />
+    <van-divider style="margin: 15px 0 10px 0" />
     <van-row>
       <van-col :span="6">
         <van-image :src="logoImg"> </van-image>
@@ -40,7 +40,7 @@
         </div>
       </van-col>
     </van-row>
-    <van-tabbar :safe-area-inset-bottom="true" style="height: 45px;">
+    <van-tabbar :safe-area-inset-bottom="true" style="height: 45px">
       <van-button type="primary" @click="ljbm">初审登记</van-button>
     </van-tabbar>
   </div>
